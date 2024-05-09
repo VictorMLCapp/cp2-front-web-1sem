@@ -110,10 +110,12 @@ section{
 #endereço{
     text-align: center;
     font-size: 50px;
+    height: 60vh;
 }
 #contato{
     text-align: center;
     font-size: 25px;
+    height: 30vh;
 }
 #numeros{
     text-align: center;
@@ -176,4 +178,7 @@ section.slider{
 }
 #radio3:checked ~ .primeiro{
     margin-left: -50%;
+}
+footer{
+    text-align:center;
 }
