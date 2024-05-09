@@ -27,23 +27,40 @@
         </nav>
     </header>
     <main>
-        <section id="web">
-            <h1>Pet Shop Cidade</h1>
+        <section class="slider">
+            <div class="slider-content">
 
-            <div class="slideshow-container">
-                <div class="slidefade">
-                  <img src="./img/slide1.jpg" alt="slide1">
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+
+                <div class="slide-box primeiro">
+                    <img src="./img/slide1.jpg" alt="slide 1">
                 </div>
-                <div class="slide fade">
-                  <img src="slide2.jpg" alt="Slide 2">
+
+                <div class="slide-box">
+                    <img src="./img/slide2.jpg" alt="slide 2">
                 </div>
-                <div class="slide fade">
-                  <img src="slide3.jpg" alt="Slide 3">
+
+                <div class="slide-box">
+                    <img src="./img/slide3.jpg" alt="slide 3">
                 </div>
-                <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label> 
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+
+
         </section>
-
         <div id="div2">
             <style>
                 h1{ 
@@ -87,7 +104,7 @@
     
             <!--Card-1-->
             <div class="card">
-             <img src="./img/ração.jpg" alt="imagem1" height="200px" width="200px"/>
+             <img src="./img/ração.jpg" alt="imagem1" height="150px" width="200px"/>
                 <h3>Ração</h3>
                 <p>Descrição do Produto 1</p>
                  <button>R$ 224,90</button>
@@ -111,21 +128,21 @@
             <!--Card-2-->
             <div class="card">
                 <img src="./img/roupadino.jpg" alt="imagem4" height="200px" width="200px"/>
-                <h3>Roupa</h3>
+                <h3>Pug</h3>
                 <p>Roupa de dinossauro para o frio.</p>
                 <button>R$ 69,90</button>
             </div>
             <!--Card 3--->
             <div class="card">
                 <img src="./img/bolas.jpg" alt="imagem5"  height="200px" width="200px"/>
-                <h3>Bolas</h3>
+                <h3>Maltes</h3>
                 <p>Bolinhas para seu cão brincar!</p>
                 <button>R$ 30,00</button>
             </div>
              <!--Card 4--->
              <div class="card">
                 <img src="./img/camacachorro.jpg.jpg" alt="imagem6" height="200px" width="200px"/>
-                <h3>Cama</h3>
+                <h3>Golden Retriever</h3>
                 <p>Cama azul marinho para cães.</p>
                 <button>R$ 129,90</button>
 
@@ -138,18 +155,22 @@
 
         </section>
 
-        <h2 id="Contato">Contato</h2> Entre em Contato:
-        Estamos ansiosos para receber você e seu animal de estimação no Pet Shop Cidade. Entre em contato conosco hoje mesmo para agendar um serviço ou visite nossa loja para conhecer nossa equipe e descobrir tudo o que temos a oferecer para o seu amigo peludo!
+        <section id="contato"><h2>Contato</h2> 
+        <br>Estamos ansiosos para receber você e seu animal de estimação no Pet Shop Cidade!
+        <br>Entre em contato conosco hoje mesmo para agendar um serviço ou visite nossa loja para conhecer nossa equipe e descobrir tudo o que temos a oferecer para o seu amigo peludo!
         
-        Telefone: +55 11 98799-3329
-        Email: petshopcidade@gmail.com
-        Endereço: Alameda Araguaia, 2179 - Parte A - Tamboré, Barueri - SP, 06455-000
-
+         <section id="numeros">
+            <br>Telefone: +55 11 98799-3329
+            <br>Email: petshopcidade@gmail.com
+            <br>Endereço: Alameda Araguaia, 2179 - Parte A - Tamboré, Barueri - SP, 06455-000
+            </section>
+        </section>
     </main>
-    <h5>@2024-todos os direitos reservados</h5>
+    <footer><h5>@2024-todos os direitos reservados</h5></footer>
+    
 </body>
 </html>
 
-
+    <script src="script.js "></script>
 </body>
 </html>

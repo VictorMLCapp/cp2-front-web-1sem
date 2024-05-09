@@ -1,19 +1,18 @@
-let slideIndex = 0;
-showSlides();
+var radio = document.querySelector('.manual-btn')
+var cont = 1 
 
-function showSlides() {
-  let slides = document.getElementsByClassName("slide");
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {
-    slideIndex = 1;
-  }
-  slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
+document.getElementById('radio1').checked = true
 
-function changeSlide(n) {
-  showSlides(slideIndex += n);
-}
+setInterval(() => {
+  proximaImg()
+}, 5000)
+
+function proximaImg(){
+  cont++
+
+  if(cont > 3){
+    cont = 1
+  }
+
+  document.getElementById('radio'+cont).checked = true
+}   
