@@ -232,6 +232,7 @@ footer h5{
 .container {
     display: flex;
     justify-content: center;
+    height: -2000px;
 }
 
 .card {
@@ -272,6 +273,6 @@ footer h5{
     color: black;
 }
 #pets{
-       text-align: center;
+    text-align: center;
     font-size: 60px;
 }
